@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #000;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.logo{
+    border-radius: 10px;
+    height: 50px;
+}
+
+.nav-items{
+    margin: 15px 5px;
+    list-style: none;
+}
+
+.nav-link{
+    border: 5px solid rgb(19, 218, 92);
+    border-radius: 50px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+}
