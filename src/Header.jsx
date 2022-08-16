@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./Home/Home";
@@ -14,18 +14,18 @@ const Header = () => {
         <div>
             {
                 <BrowserRouter>
-                <Routes>
-                    <Route element={<Layout />}>
-                    <Route exact path="/" element={<Home />}/>
-                    <Route exact path="/characters" element={<Character />}/>
-                    <Route exact path="/comics" element={<Comic />}/>
-                    <Route exact path="/creators" element={<Creator />}/>
-                    <Route exact path="/events" element={<Event />}/>
-                    <Route exact path="/series" element={<Series />}/>
-                    <Route exact path="/story" element={<Stories />}/>
-                    </Route>
-                </Routes>
-            </BrowserRouter>
+                    <Routes>
+                        <Route element={<Layout />}>
+                            <Route exact path="/" element={<Home />}/>
+                            <Route exact path="/characters" element={<Character />}/>
+                            <Route exact path="/comics" element={<Comic />}/>
+                            <Route exact path="/creators" element={<Creator />}/>
+                            <Route exact path="/events" element={<Event />}/>
+                            <Route exact path="/series" element={<Series />}/>
+                            <Route exact path="/story" element={<Stories />}/>
+                        </Route>
+                    </Routes>
+                </BrowserRouter>
             }
         </div>
     )
